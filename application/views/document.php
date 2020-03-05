@@ -5,15 +5,15 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
 
-    <title>Welcome to Madi Ratnam Gold Jewellers </title>
-    <link rel="icon"
-        type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />
-    <meta name="keywords" content="Welcome to Madi Ratnam Gold Jewellers ">
+    <title>Welcome to IMAX INFRA </title>
+    <link rel="icon"type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />
+    <meta name="keywords" content="Welcome to imax infra ">
     <meta name="description" content="">
 
 
-    <link href="<?php echo base_url();?>assets/best1_files/style.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url();?>assets/best1_files/style.css" rel="stylesheet" type="text/css" >
     <link type="text/css" href="<?php echo base_url();?>assets/best1_files/menu.css" rel="stylesheet" media="all">
     <link href="#" rel="shortcut icon">
 
@@ -136,8 +136,8 @@
                     <tr>
                         <td>
                             <div style="float: left !important; margin-left: 185px;">
-                            <a href="<?php echo base_url();?>assets/index-2.html" title="Madi Ratnam Gold Jewellers ">
-                                <img src="<?php echo base_url();?>assets/img/logo.png" title="Madi Ratnam Gold Jewellers " width="160"></a></div>
+                           
+                                <img src="<?php echo base_url();?>assets/img/logo.png" title="IMAX INFRA " width="160" height="90"></a></div>
                         </td>
 
                         <td>
@@ -304,7 +304,7 @@
                     </ul>
 
                 </li>
-                <li><a href="<?php echo base_url();?>index.php/welcome/about">Document</a></li>
+                <li><a href="<?php echo base_url();?>index.php/welcome/about">Legal</a></li>
                 
                 <!--<li><a href="../showroom/index.html">Showroom</a></li>
     <li><a href="../testimonial/index.html">Customer comments</a></li>
@@ -313,6 +313,7 @@
                 
                 <li><a href="<?php echo base_url();?>index.php/welcome/registration">Registration</a></li>
                 <li><a href="<?php echo base_url();?>index.php/welcome/contact">Contact us</a></li>
+                	<li><a href="<?php echo base_url();?>index.php/welcome/login">Login</a></li>
 
             </ul>
         </div>
@@ -336,21 +337,38 @@
                    
   </div>
   
-  <div style="float: left; padding: 20px;">
+  <!--<div style="float: left; padding: 20px;">
                     <div style="width: 410px; margin-top: 60px; height: 320px;">
 
                         <div id="img1">
-                            <img src="<?php echo base_url();?>assets/slider/cod1.jpg" height="300px;" style="margin-left:20%;margin-top:2%;border-radius:10%;" /></div>
+                            <img src="<?php //echo base_url();?>assets/img/cod1.jpg" height="300px;" style="margin-left:20%;margin-top:2%;border-radius:10%;" /></div>
                         <br />
 
                         <div id="img2" style="display: none; margin-left: 20px; margin-top: -50px;">
-                            <img src="<?php echo base_url();?>assets/img/col.jpg" /></div>
+                            <img src="<?php //echo base_url();?>assets/img/col3.jpeg" /></div>
 
                         <div id="img3" style="display: none; margin-top: -30px;">
-                            <img src="<?php echo base_url();?>assets/img/col2.jpg" /></div>
+                            <img src="<?php echo base_url();?>assets/img/col2.jpeg" /></div>
 
                     </div>
-                </div>
+                </div>-->
+                 
+                           <img src="<?php echo base_url();?>assets/img/legal.jpeg" height="400"  style="margin-left:10%;"/>   
+                        
+                   
+                         <br/>
+                           <br/>
+                          <img src="<?php echo base_url();?>assets/img/legal1.jpeg" " width="500" />
+                         
+                       
+                         
+                            
+                        
+                         
+                     
+                     
+                        
+               
 
                 <div style="float: left; padding: 20px;">
                     <div style="width: 480px; height: 460px;">

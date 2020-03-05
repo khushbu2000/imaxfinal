@@ -44,8 +44,8 @@ class Welcome extends CI_Controller {
 	}
 	public function registration()
 	{
-		$this->load->library("form_validation");
-	$this->load->view('registration');
+	   
+		$this->load->view('registration');
 	}
 	public function insertdata(){
 		
@@ -64,6 +64,7 @@ class Welcome extends CI_Controller {
 		$adharnum=$this->input->post("adhaarnumber");
 		$email=$this->input->post("email");
 		$password=$this->input->post("password");
+			$cpassword=$this->input->post("con_password");
 		
 		$data=array(
 				"parent_id" =>$parent_id,
@@ -79,15 +80,14 @@ class Welcome extends CI_Controller {
 				"pannumber" =>$pannumber,
 				"adhaarnumber" =>$adharnum,
 				"email" =>$email,
-				"password" =>$password
+				"password" =>$password,
+				"con_password" =>$cpassword
 				
 		);
 		$this->load->model('viewmodel');
 		$this->viewmodel->insertCustomer($data);
 		redirect(base_url()."index.php/welcome/registration/success");
 		}
-		
-	
 	
 	
 	public function slider()
@@ -101,9 +101,8 @@ class Welcome extends CI_Controller {
 	}
 	public function login()
 	{
-		$this->load->view('login');
+	    $this->load->view('login');
 	}
-	
 	
 }
 

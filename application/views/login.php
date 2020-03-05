@@ -3,7 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <!-- Google Tag Manager -->
-    
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    '../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-5MZ92L6');</script>
     <!-- End Google Tag Manager -->
 
     <meta charset="utf-8">
@@ -13,13 +20,13 @@
     <meta name="author" content="imaxinfra.com">
     <!-- Favicon Icon -->
     <link rel="icon" type="image/png" href="<?php echo base_url();?>assets/img/logo.png">
-    <!-- Bootstrap & jQuery -->
+    
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/lib/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/lib/animate/animate.min.css">
-    <!-- Page Loader -->
+   
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/lib/pace/themes/black/pace-theme-loading-bar.css">
-    <!-- ICheckBox -->
+   
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/lib/iCheck/skins/all.css">
     <!-- Custom Icheck theme checkbox -->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/vendor/icheck/icheck-theme.css">
@@ -33,14 +40,14 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
 </head>
-<body class="strawberry-theme" style="background-image: url('<?php echo base_url();?>assets/Images/.jpg')">
+<body class="strawberry-theme" style="background-image: url('<?php echo base_url();?>assets/Images/night.jpg')">
     <div class="auth-page" style="background-color:white;">
         <div class="animated zoomIn auth_box" style="background-color:white;">
             <div class="col-lg-6 col-md-8 col-sm-10 col-xs-10 col-lg-offset-3 col-md-offset-2 col-sm-offset-1 col-xs-offset-1 auth_login_bg bg-theme no-padding" style="background-color:white;">
                 <div class="col-md-6 col-sm-6 col-xs-12 no-padding-r no-padding-l">
                     <div class="auth_login bg-white">
                         <h3 class="no-margin-t">Login</h3>
-                        <form name="ff" method="post" action="<?php echo base_url();?>isoft/index.php" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnLogin')" id="ff">
+                        <form name="ff" method="post" action="#" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnLogin')" id="ff">
 <div>
 <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
 <input type="hidden" name="ToolkitScriptManager1_HiddenField" id="ToolkitScriptManager1_HiddenField" value="" />
@@ -49,19 +56,44 @@
 <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE5NTc0MzI5MGRkmxI2LdUcuwHCzWeJE9Elkrv5D9i6aE+PJCFQT+OO0LY=" />
 </div>
 
-
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ff'];
+if (!theForm) {
+    theForm = document.ff;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
 
 
 <script src="<?php echo base_url();?>assets/WebResource.axd?d=lF13j8QLKQAEUkpYbEtdzZbg1v63-UCWzvdBtFgR_RvJfTFnSiBYSDmVqloz-1TfslG8jk9SA9FsnoUgV2HUbchWKgYA_aI7ka2iUpBIgJo1&amp;t=637100578300000000" type="text/javascript"></script>
 
 
 <script src="<?php echo base_url();?>assets/ScriptResource.axd?d=8bqVqOHPmNITU165V9oiRYZiUlyUh8ZLDb0kHQ7Hyh_hYeCY0VWSoI1ph15gGN26nIPfWg9QRLUU6y88rfUShM1g9amhWS9MrzgI4xaTAvH1NtFOtlrj7Nmc5qiatSE-EytKKgAO-aSBbcRHsOAUXA2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
-
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
 
 <script src="<?php echo base_url();?>assets/ScriptResource.axd?d=IgzSdLUdpK83qJMramWy-5tityBLM8uFk3m-nvunOkVplmyC7cORcE2njKcMP7iP0GfqgqwHhng_de8jpjy2369WYW2r5dwW8Xd4lTTTKfbxeOiDHRuRCdc7pNHJ5dlsDm9yZWG2bdLX0e57AmdXdg2&amp;t=ffffffffec54f2d7" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/Default.aspx?_TSM_HiddenField_=ToolkitScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.40412.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a1547e793-5b7e-48fe-8490-03a375b13a33%3ade1feab2%3af9cec9bc%3a35576c48" type="text/javascript"></script>
 <script src="<?php echo base_url();?>assets/WebResource.axd?d=vwC1GrALhf3Zu4p75X3Gc3u6CkXiFZ_tJxxS6gxeaFYY0kLUtD9v_WCDa-cLTCIBPvRjJTvTHMyzrvKAFH1gve2R73nA6UEl7rsHGb_VO6U1&amp;t=637100578300000000" type="text/javascript"></script>
-
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+null;
+return true;
+}
+//]]>
+</script>
 
 <div>
 
@@ -76,7 +108,7 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'ff', [], [
                             <div class="row">
                                 <div class="col-xs-12 col-md-12 col-sm-12">
                                     <div class="form-group margin-t-lg">
-                                        <input name="name" type="text" id="name" class="form-control padding-r-xlg" />
+                                        <input name="txtMemberId" type="text" id="txtMemberId" class="form-control padding-r-xlg" />
                                         <input type="hidden" name="TextBoxWatermarkExtender2_ClientState" id="TextBoxWatermarkExtender2_ClientState" />
                                     </div>
                                     <div class="form-group margin-t-lg">
@@ -123,7 +155,13 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'ff', [], [
                             </div>
                         
 
-
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ToolkitScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();WebForm_AutoFocus('txtMemberId');Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"TextBoxWatermarkExtender2_ClientState","WatermarkText":"Enter User Id....","id":"TextBoxWatermarkExtender2"}, null, null, $get("txtMemberId"));
+});
+//]]>
+</script>
 </form>
                     </div>
                 </div>
@@ -149,8 +187,21 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'ff', [], [
     <script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/theme-setting.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/components.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/scroll-top.min.js"></script>
+    <script type="text/javascript">
+        $('.remember_me').iCheck({
+            checkboxClass: 'icheckbox_theme',
+        });
+		</script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-89851432-1', 'auto');
+        ga('send', 'pageview');
+		</script>
 </body>
 </html>
-
-
-

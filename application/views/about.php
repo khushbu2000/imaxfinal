@@ -1,17 +1,13 @@
-
-
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" class=" js cssanimations">
 
 
+<!-- Mirrored from madi.alt-neuro.com/about-us/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2019 11:26:42 GMT -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Welcome to Imaxinfra </title>
+    <title>Welcome to IMAX INFRA </title>
     <link rel="icon"
         type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />
     <meta name="keywords" content="Welcome to Madi Ratnam Gold Jewellers ">
@@ -141,8 +137,8 @@
                     <tr>
                         <td>
                             <div style="float: left !important; margin-left: 185px;">
-                            <a href="<?php echo base_url();?>assets/index-2.html" title="Madi Ratnam Gold Jewellers ">
-                                <img src="<?php echo base_url();?>assets/img/logo.png" title="Madi Ratnam Gold Jewellers " width="160"></a></div>
+                            <a href="<?php echo base_url();?>assets/index-2.html" title="imax infra ">
+                                <img src="<?php echo base_url();?>assets/img/logo.png" title="imax infra " width="160"></a></div>
                         </td>
 
                         <td>
@@ -313,11 +309,11 @@
                     </ul>
 
                 </li>
-              <li><a href="<?php echo base_url();?>index.php/welcome/document">Document</a></li>
+              <li><a href="<?php echo base_url();?>index.php/welcome/document">Legal</a></li>
                
                 <li><a href="<?php echo base_url();?>index.php/welcome/registration">Registration</a></li>
                 <li><a href="<?php echo base_url();?>index.php/welcome/contact">Contact us</a></li>
-
+	<li><a href="<?php echo base_url();?>index.php/welcome/login">Login</a></li>
             </ul>
         </div>
         <div style="background-color: #000; background-repeat: no-repeat; background-size: cover; margin-top: -24px;">
@@ -378,7 +374,7 @@
 
                             <td>
                                 <div id="click5" style="margin-left: 10px;">
-                                    <input type="submit" value="AboutIMAX INFRA Gold" style="background-color: #FAB205; border: #FAB205 solid 1px; padding: 8px; color: #fff; border-radius: 3px; cursor: pointer" />
+                                    <input type="submit" value="ABOUT IMAX INFRA " style="background-color: #FAB205; border: #FAB205 solid 1px; padding: 8px; color: #fff; border-radius: 3px; cursor: pointer" />
                                 </div>
                             </td>
 
@@ -443,8 +439,7 @@
 
 
                             <div id="profile1" style="display: margin-left:60%;margin-top:30%; ">
-                                <b style="font-size: 15px; color: #fff;">
-                                </b><br />
+                                <b style="font-size: 15px; color: #fff;">History</b><br />
                                 <br />
 
 
@@ -489,8 +484,8 @@ Setting benchmarks by initialing the concept of green
                                            I MAX infra project today is one of the fastest
 						emerging key players in the Indian real estate landscape. Know for its innovative approach to offer state-of-the Art
 						GREEN STRUCTURE ,Along with sustainable models, I MAX infraproject.	project.</p> <p class="text-info" align=”justify”>
-					 .<br />etc...
-                                    <br />
+					 .etc...
+                                   
                                     <b style="font-size: 15px; color: #fff;">Our Company</b>
                                     <br />
                                     Is commited to mark its excellence in green construction in

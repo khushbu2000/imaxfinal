@@ -4,17 +4,18 @@
 <!--try to index -->
 
 
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Welcome to Imaxinfra </title>
-<meta name="keywords" content="Welcome to Madi Ratnam Gold Jewellers ">
+<title>Welcome to IMAX INFRA </title>
+  <link rel="icon"type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />
+<meta name="keywords" content="Welcome to iax infra">
 <meta name="description" content="">
   <link href="<?php echo base_url();?>assets/best1_files/style.css" rel="stylesheet" type="text/css">
 <link type="text/css" href="<?php echo base_url();?>assets/best1_files/menu.css" rel="stylesheet" media="all">
-<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/img/logo.png">
-
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/images/favicon.html">
+<link rel="shortcut icon" type="image/x-icon"  href="<?php echo base_url();?>assets/images/favicon.html">
 <link href="#" rel="shortcut icon">
 <style>
 .error_class
@@ -73,7 +74,7 @@ Your browser does not support the audio element.
             background-size: cover">
             <div style="margin: auto; width: 990px;">
             <div style="float: left !important; margin-left: 20px;">
-                    <img src="<?php echo base_url();?>assets/img/logo.png" width="170px"></div>
+                    <img src="<?php echo base_url();?>assets/img/logo.png" width="170px" height="100"></div>
                     <div style="float: left !important; margin-top: 17px; margin-left: 270px;">
                     <table width="" border="0">
                     <tr>
@@ -239,12 +240,12 @@ background: url('<?php echo base_url();?>assets/img/bubble.html') no-repeat 6px 
 
 <li style="margin-left:3%;"><a href="<?php echo base_url();?>index.php">Home</a></li>
 <li><a href="<?php echo base_url();?>index.php/welcome/about">About us</a></li>
-<li><a href="#">Products</a>
+<li><a href="#">Projects</a>
 <ul>
 
 		</ul>
 				</li>
-	<li><a href="<?php echo base_url();?>index.php/welcome/document">Document</a></li>
+	<li><a href="<?php echo base_url();?>index.php/welcome/document">Legal</a></li>
 						<li><a href="<?php echo base_url();?>index.php/welcome/registration">Registration</a></li>
 						<li><a href="<?php echo base_url();?>index.php/welcome/contact">Contact us</a></li>
 						<li><a href="<?php echo base_url();?>index.php/welcome/login">Login</a></li>

@@ -67,8 +67,11 @@
                                     </div>
                                     <p class="legal" style="color: #fff;">
                                     Designed by <span style="color: #333; font-size: 11px;"><a href="#" style="text-decoration: none;
-                                    		color: #333;">Niktech    software solution</a></span></p>
+                                    		color: #333;">Niktech    software solutions</a></span></p>
                                     		</div>
+                                    	<h4>Total Visitors</h1>	
+                                    <a href="https://www.freecounterstat.com" title="hit counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=r615tn5nzp6krlttkrd95lzb9ndwk3fy" border="0" title="hit counter" alt="hit counter" height="40"></a>
+                                    		
                                     		<div class="foot_right">
                                     		<span style="margin-left: 195px; color: #333; font-size: 11px;" id="newsLetter_success">
                                     		Sign up to receive email updates.</span><br>

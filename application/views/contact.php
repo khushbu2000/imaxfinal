@@ -2,18 +2,6 @@
 ?>
 
 
-
-
-
-</div>
-	<!--Top Container End-->    
-<!--<p>First Paragraph</p>
-<p>Second Paragraph</p>
-<p>Yet one more Paragraph</p>
- 
-
-
-	<!--Header Container Start--> 
       
 
     <div style="background-color:#000; background-repeat:no-repeat; background-size:cover; margin-top:-24px;">

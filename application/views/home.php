@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
     
-
+<!-- Mirrored from madi.alt-neuro.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2019 11:19:11 GMT -->
 <head>
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -17,7 +17,8 @@
 		<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type='text/css' />
 	
     </head>
-    <body>
+    <body   style="background-image: url('<?php echo base_url();?>assets/img/bgi2.jpg' ); background-size: 4000px 1000px; ">
+   
 	  <div class="container">
 			<!-- Codrops top bar -->
         	<!--/ Codrops top bar -->
@@ -28,7 +29,7 @@
 	</header>
 			<section id="dg-container" class="dg-container">
 				<!-- <div class="dg-wrapper"> -->
-					<a href="#"><img src="<?php echo base_url();?>assets/slider/h3.jpg" alt="image02" height="300"style="border-radius:10%;" ></a>
+					<a href="#"><img src="<?php echo base_url();?>assets/img/home.jpeg" alt="image02" height="300"style="border-radius:10%;" ></a>
 				<nav>	
 					<span class="dg-prev">&lt;</span>
 					<span class="dg-next">&gt;</span>				</nav>

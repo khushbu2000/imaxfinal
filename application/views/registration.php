@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1">
@@ -5,7 +7,9 @@
     
     <title>
 WELCOME TO IMAX INFRA
-</title><meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+</title>
+  <link rel="icon"type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <meta name="description" /><meta name="author" />
 <link href="<?php echo base_url();?>assets/User/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 <link href="<?php echo base_url();?>assets/User/assets/css/metro.css" rel="stylesheet" />
@@ -19,7 +23,7 @@ WELCOME TO IMAX INFRA
     <script src="<?php echo base_url();?>assets/ajax/frmvalidation.js" type="text/javascript"></script>
     <script src="<?php echo base_url();?>assets/ajax/jqueryajax.js" type="text/javascript"></script>
 </head>
-<body class="login" style="background-image: url('<?php echo base_url();?>assets/images/Background-Textures-113.jpg');">
+<body class="login" style="background-image: url('<?php echo base_url();?>assets/img/green.jpg');">
     <form name="Form1" method="post" action="<?php echo base_url();?>index.php/welcome/insertdata" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnSubmit')" id="Form1">
 <div>
 <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
@@ -84,8 +88,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="parent_id" id="parent_id" placeholder="Enter Your Sponsor Id"value="<?php echo set_value('parent_id'); ?>">     
-                                      <?php echo form_error('parent_id');?>
+                                   <input type="text" name="parent_id" id="parent_id" placeholder="Enter Your Sponsor Id">     
+                                      
 
                                     </div>
                                 </div>
@@ -114,8 +118,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="name" id="name" placeholder="Enter Your Sponsor Name" value="<?php echo set_value('name'); ?>">     
-                                      <?php echo form_error('name');?>
+                                   <input type="text" name="name" id="name" placeholder="Enter Your Full Name" >     
+                                      
 
                                     </div>
                                 </div>
@@ -125,8 +129,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="fname" id="fname" placeholder="Enter Your Father Name" value="<?php echo set_value('fname'); ?>">     
-                                      <?php echo form_error('fname');?>
+                                   <input type="text" name="fname" id="fname" placeholder="Enter Your Father Name">     
+                                     
 
                                     </div>
                                 </div>
@@ -136,9 +140,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="email" id="email" placeholder="Enter Your Email" value="<?php echo set_value('email'); ?>">     
-                                     <?php echo form_error('email');
-					                    ?>
+                                   <input type="text" name="email" id="email" placeholder="Enter Your Email" >     
+                                     
 
                                     </div>
                                 </div>
@@ -149,8 +152,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="address" id="address" placeholder="Enter Your Address" value="<?php echo set_value('address'); ?>">     
-                                      <?php echo form_error('address');?>
+                                   <input type="text" name="address" id="address" placeholder="Enter Your Address" >     
+                                      
 
                                     </div>
                                 </div>
@@ -160,7 +163,7 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class=""></i>
-                                 <select name="state" id="state" value="<?php echo set_value('state'); ?>">
+                                 <select name="state" id="state" >
                                  <option>--Select State--</option>
                                  <?php 
 													 $this->db->distinct();
@@ -170,8 +173,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
 													<option value="<?php echo $row->state;?>"><?php echo $row->state;?></option>
                                            <?php endforeach;?>
                                  </select>     
-                                     <?php echo form_error('state');
-					                    ?>
+                                     
+					                   
 					                    <script>
 									$("#state").change(function(){
 										var state = $("#state").val();
@@ -192,11 +195,10 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class=""></i>
-                                 <select id="city" name="city" value="<?php echo set_value('city'); ?>">
+                                 <select id="city" name="city">
                                  <option>--Select City--</option>
                                  </select>     
-                                     <?php echo form_error('city');
-					                    ?>
+                                    
 
                                     </div>
                                     <script type="text/javascript">
@@ -218,12 +220,10 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class=""></i>
-                                 <select id="area" name="area" value="<?php echo set_value('area'); ?>">
+                                 <select id="area" name="area" >
                                  <option>--Select Area--</option>
                                  </select>     
-                                     <?php echo form_error('area');
-					                    ?>
-
+                                    
                                     </div>
                                 </div>
                             </div>
@@ -232,10 +232,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="pincode" id="pincode" placeholder="Enter Your Pin Number" value="<?php echo set_value('pincode'); ?>">     
-                                     <?php echo form_error('pincode');
-					                    ?>
-
+                                   <input type="text" name="pincode" id="pincode" placeholder="Enter Your Pin Code">     
+                                    
                                     </div>
                                      <script>
                                      $("#area").change(function(){
@@ -254,9 +252,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="mobile" id="phone" placeholder="Enter Your Phone Number" value="<?php echo set_value('mobile'); ?>">     
-                                     <?php echo form_error('mobile');
-					                    ?>
+                                   <input type="text" name="mobile" id="phone" placeholder="Enter Your Phone Number" >     
+                                    
 
                                     </div>
                                 </div>
@@ -266,9 +263,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="pannumber" id="pan" placeholder="Enter Your Pan Number" value="<?php echo set_value('pannumber'); ?>">     
-                                     <?php echo form_error('pannumber');
-					                    ?>
+                                   <input type="text" name="pannumber" id="pan" placeholder="Enter Your Pan Number" >     
+                                   
 
                                     </div>
                                 </div>
@@ -278,10 +274,10 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="text" name="adharnum" id="anum" placeholder="Enter Your Aadhar Number" value="<?php echo set_value('adharnum'); ?>">     
+                                   <input type="text" name="adharnum" id="anum" placeholder="Enter Your Aadhar Number" >     
                                      
-									<?php echo form_error('adharnum');
-					                    ?>
+									
+					                    
                                     </div>
                                 </div>
                             </div>
@@ -290,13 +286,12 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class=""></i>
-                                 <select id="gen" name="gender" value="<?php echo set_value('gender'); ?>">
+                                 <select id="gen" name="gender">
                                  <option>--Select Gender--</option>
                                  <option>MALE</option>
                                  <option>FEMALE</option>
                                  </select>     
-                                     <?php echo form_error('gender');
-					                    ?>
+                                   
 
                                     </div>
                                 </div>
@@ -306,9 +301,9 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="password" name="password" id="password" placeholder="Enter Your Password" value="<?php echo set_value('password'); ?>">     
-                                     <?php echo form_error('password');
-					                    ?>
+                                   <input type="password" name="password" id="password" placeholder="Enter Your Password">     
+                                    
+					                    
 
                                     </div>
                                 </div>
@@ -318,10 +313,8 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                 <div class="controls">
                                     <div class="input-icon left">
                                         <i class="icon-user"></i>
-                                   <input type="password" name="cpassword" id="cpassword" placeholder="Enter Your Password" value="<?php echo set_value('password'); ?>">     
-                                     <?php echo form_error('cpassword');
-					                    ?>
-
+                                   <input type="password" name="cpassword" id="cpassword" placeholder="Enter Your Password">     
+                                   
                                     </div>
                                 </div>
                             </div>
@@ -331,12 +324,22 @@ Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'Form1', ['
                                     <div class="input-">
                                         <i class=""></i>
                                     <input type="submit" class="btn btn-primary" id="regisbtn">
-                    </div>
+                                     
+
+                                    </div>
                                 </div>
                             </div>
+                          
+                            
                 </div>
             </div>
-</div>
-       </form>
+
+
+        </div>
+        
+    
+
+
+</form>
 </body>
 </html>

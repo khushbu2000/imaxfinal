@@ -106,7 +106,7 @@
                     <li><a href="<?php echo base_url();?>assetsUserRDList.aspx" class="list-link"><i class="fa fa-picture-o menu-icon" aria-hidden="true"></i>My Gold RD</a></li>
 
                     <li><a href="<?php echo base_url();?>assets/img/real estate-converted (1).pdf" target="_blank" class="list-link"><i class="fa fa-picture-o menu-icon" aria-hidden="true"></i>presentation</a></li>
-                    <li><a href="http://localhost/maniratnam1/index.php/welcome/login" class="list-link"><i class="fa fa-picture-o menu-icon" aria-hidden="true"></i>Logout</a></li>
+                    <li><a href="#" class="list-link"><i class="fa fa-picture-o menu-icon" aria-hidden="true"></i>Logout</a></li>
 
 
                 </ul>
