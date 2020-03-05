@@ -7,13 +7,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" class=" js cssanimations">
 
 
-<!-- Mirrored from madi.alt-neuro.com/about-us/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2019 11:26:42 GMT -->
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <title>Welcome to Madi Ratnam Gold Jewellers </title>
     <link rel="icon"
-        type="image/png" href="<?php echo base_url();?>assets/images/favicon.html" />
+        type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />
     <meta name="keywords" content="Welcome to Madi Ratnam Gold Jewellers ">
     <meta name="description" content="">
 
@@ -152,7 +152,6 @@
                                 <span style="margin-left: 270px">
 
                                     <img src="<?php echo base_url();?>assets/img/face.png" height="30px">
-
                                     <img src="<?php echo base_url();?>assets/img/twr.png" height="30px;">
                                 </span>
                                 <br />
@@ -162,7 +161,7 @@
                                         <td>
                                             <img src="<?php echo base_url();?>assets/images/phone_2.png" height="17px" /></td>
                                         <td>
-                                            <div style="font-size: 15px">0522-3592159</div>
+                                            <div style="font-size: 15px">+91-920864307</div>
                                         </td>
                                     </tr>
                                 </table>

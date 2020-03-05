@@ -8,7 +8,7 @@
 
     <title>Welcome to Madi Ratnam Gold Jewellers </title>
     <link rel="icon"
-        type="image/png" href="<?php echo base_url();?>assets/images/favicon.html" />
+        type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />
     <meta name="keywords" content="Welcome to Madi Ratnam Gold Jewellers ">
     <meta name="description" content="">
 

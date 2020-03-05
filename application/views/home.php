@@ -4,12 +4,12 @@
 <!DOCTYPE html>
 <html lang="en">
     
-<!-- Mirrored from madi.alt-neuro.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Sep 2019 11:19:11 GMT -->
+
 <head>
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <title>|| Welcome to  IMAX INFRA ||</title>
-		<link rel="icon" type="image/png" href="<?php echo base_url();?>assets/intro_product/a.png" />
+		<link rel="icon" type="image/png" href="<?php echo base_url();?>assets/img/logo.png" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css1/demo.css" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css1/style.css" />
 		<script type="text/javascript" src="<?php echo base_url();?>assets/js1/modernizr.custom.53451.js"></script>

@@ -4,17 +4,17 @@
 <!--try to index -->
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Welcome to Madi Ratnam Gold Jewellers </title>
+<title>Welcome to Imaxinfra </title>
 <meta name="keywords" content="Welcome to Madi Ratnam Gold Jewellers ">
 <meta name="description" content="">
   <link href="<?php echo base_url();?>assets/best1_files/style.css" rel="stylesheet" type="text/css">
 <link type="text/css" href="<?php echo base_url();?>assets/best1_files/menu.css" rel="stylesheet" media="all">
-<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/images/favicon.html">
-<link rel="shortcut icon" type="image/x-icon"  href="<?php echo base_url();?>assets/images/favicon.html">
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url();?>assets/img/logo.png">
+
 <link href="#" rel="shortcut icon">
 <style>
 .error_class
